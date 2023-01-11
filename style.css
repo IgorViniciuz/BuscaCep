@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    direction: ltr;
+    background-color: white;
+    color: black;
+}
+
+#logo {
+    margin: 0 auto;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: lightgray;
+    -webkit-transition: 0.2 ease all;
+    -moz-transition: 0.2 ease all;
+    -ms-transition: 0.2 ease all;
+    -o-transition: 0.2 ease all;
+    transition: 0.2 ease all;
+}
+
+#logo:hover {
+    color: orange;
+}
+
+form {
+    margin: 0 auto 0 auto;
+    padding: 30px;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    background: white;
+    border-radius: 10px;
+}
+
+form label {
+    font-size: 14px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+form label,
+form input {
+    float: left;
+    clear: both;
+}
+
+form input {
+    margin: 15px 0;
+    padding: 15px 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: 0.2 ease all;
+    -moz-transition: 0.2 ease all;
+    -ms-transition: 0.2 ease all;
+    -o-transition: 0.2 ease all;
+    transition: 0.2 ease all;
+}
+
+form input[type=text]:focus {
+    border-color: orange;
+}
+
+button {
+    padding: 15px 50px;
+    width: auto;
+    background: orange;
+    border: 1px solid #bbb;
+    border-radius: 1rem;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    float: right;
+    clear: right;
+    -webkit-transition: 0.2 ease all;
+    -moz-transition: 0.2 ease all;
+    -ms-transition: 0.2 ease all;
+    -o-transition: 0.2 ease all;
+    transition: 0.2 ease all;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
